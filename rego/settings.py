@@ -13,6 +13,7 @@ import os
 from dotenv import load_dotenv
 from pathlib import Path
 from django.utils.translation import gettext_lazy as _
+import django_heroku
 
 load_dotenv()
 
@@ -97,19 +98,7 @@ DATABASES = {
 from interaction.password_validation import PinValidator
 
 AUTH_PASSWORD_VALIDATORS = [
-    # {
-    #     'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    # },
-    # {
-    #     'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
-    #     'OPTIONS': {'min_length': 4,}
-    # },
-    # {
-    #     'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
-    # },
-    # {
-    #     'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
-    # },
+   
     {'NAME': 'interaction.password_validation.PinValidator', }
     
 ]
@@ -153,6 +142,8 @@ LOCALE_PATHS = [
     BASE_DIR / 'locale/',
 ]
 
+#Activate Django-Heroku
+django_heroku.settings(locals())
 
 
 
