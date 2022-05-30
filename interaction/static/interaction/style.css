@@ -1,0 +1,246 @@
+
+h1 {
+  color: green;
+  font-weight: bolder;
+}
+
+h4 {
+  color: green;
+}
+
+p {
+color: green;
+font-size: larger;
+}
+
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+height: 100vh;
+}
+
+.page-container {
+position: relative;
+min-height: 100vh;
+}
+
+.bg-image {
+opacity: 0.2;
+width: 100%;
+height:100%;
+object-fit:contain;
+}
+
+.header {
+position: absolute;
+top: 10%;
+width: 100%;
+height: 2.5rem;
+text-align: center;
+}
+
+.footer {
+position:absolute;
+text-align: center;
+width:100%;
+color: green;
+bottom: 0;
+}
+
+.find-child-button {
+position: absolute;
+top: 25%;
+text-align: center;
+width: 100%;
+}
+
+.content-wrap {
+padding-bottom: 2.5rem;    
+position:absolute;
+}
+
+.classroom {
+position: absolute;
+width: 100%;
+text-align: center;
+top: 25%;
+}
+
+.classroom-buttons {
+margin: 10px 0 10px 0;
+}
+
+.student-list {
+position: absolute;
+width: 100%;
+text-align: center;
+top: 25%;
+}
+
+.student-buttons {
+margin: 10px 0 10px 0;
+}
+
+.class-time-student {
+position:absolute;
+width: 100%;
+text-align: center;
+top: 22%;
+}
+
+.checkout-forms {
+position: absolute;
+width: 100%;
+text-align: center;
+top:36%;
+}
+
+.forgot-pin {
+position:absolute;
+width:100%;
+margin:auto;
+left:0;
+}
+
+.submit-button {
+margin-top: 30px;
+}
+
+.back-to-front-page {
+position:absolute;
+width: 100%;
+text-align: center;
+top: 30%;
+font-size: 1.5rem;
+}
+
+.previous-page {
+position:absolute;
+width: 100%;
+text-align:center;
+bottom:10%;
+}
+
+.link {
+color: green;
+}
+
+.link:hover {
+color: purple;
+}
+
+/* JKET PIN Reset .password-reset-portal */
+
+.error-alert {
+color:purple;
+}
+
+/* base.html */
+
+.lang-section {
+  position:absolute;
+  width: 100%;
+  text-align:right;
+  top:2%;
+}
+
+/* login.html */
+
+.login {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+.login-form {
+margin:auto;
+}
+
+
+.log-back-in {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+.password-reset-portal {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+.password-reset-portal2 {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+
+.password-reset-emai-notofication {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+.password-reset-email-instructions-sent {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+
+.password-reset-done {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+/* password_reset_confirm.html */
+
+.password-reset-confirm {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
+.password-reset-form {
+text-align: center;
+width:80%;
+margin: auto;
+}
+
+/* password_change_form.html */
+
+.help {
+color: purple;
+font-size:small;
+}
+
+.password-change-form {
+position:absolute;
+width: 100%;
+text-align:center;
+top:25%;
+}
+
+/* password_change_done.html */
+
+.password-change-done {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+
+}
+
