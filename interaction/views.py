@@ -3,6 +3,7 @@ from django.shortcuts import get_object_or_404, render, redirect
 from interaction.forms import CheckOutForm, UserForm
 from interaction.models import Member, ClassRoom
 from django.contrib.auth.models import User
+from django.utils.translation import gettext_lazy as _
 
 YEAR = datetime.datetime.now().year
 
