@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-30 13:24+1200\n"
-"PO-Revision-Date: 2022-05-30 13:28+1200\n"
+"POT-Creation-Date: 2022-05-31 07:25+1200\n"
+"PO-Revision-Date: 2022-05-31 07:29+1200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -121,59 +121,17 @@ msgstr "送信が完了しました。"
 msgid "Back to Front Page"
 msgstr "フロントページ"
 
-#: rego/settings.py:148
+#: rego/settings.py:138
 msgid "English"
 msgstr "英語"
 
-#: rego/settings.py:149
+#: rego/settings.py:139
 msgid "Japanese"
 msgstr "日本語"
-
-#: templates/admin/base.html:39
-#, fuzzy
-#| msgid "Welcome to JKET"
-msgid "Welcome,"
-msgstr "JKETへようこそ"
-
-#: templates/admin/base.html:44
-msgid "View site"
-msgstr ""
-
-#: templates/admin/base.html:49
-msgid "Documentation"
-msgstr ""
-
-#: templates/admin/base.html:53
-#: templates/registration/password_change_done.html:8
-#: templates/registration/password_change_form.html:8
-msgid "Change password"
-msgstr "PINの変更"
-
-#: templates/admin/base.html:55
-#: templates/registration/password_change_done.html:9
-#: templates/registration/password_change_form.html:9
-msgid "Log out"
-msgstr "ログアウト"
-
-#: templates/admin/base.html:66 templates/admin/logged_out.html:4
-#: templates/registration/password_change_done.html:15
-#: templates/registration/password_change_form.html:15
-msgid "Home"
-msgstr "ホーム"
 
 #: templates/admin/base_site.html:3
 msgid "Django site admin"
 msgstr ""
-
-#: templates/admin/logged_out.html:10
-msgid "Thanks for spending some quality time with the web site today."
-msgstr ""
-
-#: templates/admin/logged_out.html:12
-#, fuzzy
-#| msgid "log in again?"
-msgid "Log in again"
-msgstr "再度ログイン"
 
 #: templates/base_registration.html:27
 msgid "JKET PIN Reset Portal"
@@ -189,7 +147,7 @@ msgstr "JKET PIN変更画面へ"
 
 #: templates/registration/login.html:26
 msgid "Your username and password didn't match. Please try again."
-msgstr "ユーザーネームまたはPINを再度確認してください。"
+msgstr "ユーザー名またはPINを再度確認してください。"
 
 #: templates/registration/login.html:31
 msgid "Your account doesn't have access to this page."
@@ -203,13 +161,32 @@ msgstr "アクセス可能なアカウントにログインしてください。
 msgid "Please login to see this page."
 msgstr "ログインしてください。"
 
-#: templates/registration/login.html:50
+#: templates/registration/login.html:43
+msgid "Username"
+msgstr "ユーザー名"
+
+#: templates/registration/login.html:52
 msgid "login"
 msgstr "ログイン"
 
-#: templates/registration/login.html:56
+#: templates/registration/login.html:58
 msgid "Lost PIN? Forgot username?"
 msgstr "PINの紛失もしくはユーザー名が分からない場合"
+
+#: templates/registration/password_change_done.html:8
+#: templates/registration/password_change_form.html:8
+msgid "Change password"
+msgstr "PINの変更"
+
+#: templates/registration/password_change_done.html:9
+#: templates/registration/password_change_form.html:9
+msgid "Log out"
+msgstr "ログアウト"
+
+#: templates/registration/password_change_done.html:15
+#: templates/registration/password_change_form.html:15
+msgid "Home"
+msgstr "ホーム"
 
 #: templates/registration/password_change_done.html:16
 #: templates/registration/password_change_form.html:16
@@ -222,7 +199,7 @@ msgstr "PINが変更されました。"
 
 #: templates/registration/password_change_done.html:27
 msgid "Please logout."
-msgstr "ログアウトしてください。"
+msgstr "名ログアウトしてください。"
 
 #: templates/registration/password_change_form.html:48
 msgid "Please correct the error below."
@@ -238,7 +215,7 @@ msgstr "ログアウト"
 
 #: templates/registration/password_change_form.html:91
 msgid "If someone else needs PIN reset, click here."
-msgstr "ユーザーネームが分からない場合のPIN変更"
+msgstr "ユーザー名が分からない場合のPIN変更"
 
 #: templates/registration/password_change_form.html:95
 msgid "Click here to login."
@@ -283,6 +260,16 @@ msgstr "PIN変更の必要な方のeメールを入力"
 #: templates/registration/password_reset_form.html:16
 msgid "Email Reset Link"
 msgstr "PIN変更リンクを送信"
+
+#, fuzzy
+#~| msgid "Welcome to JKET"
+#~ msgid "Welcome,"
+#~ msgstr "JKETへようこそ"
+
+#, fuzzy
+#~| msgid "log in again?"
+#~ msgid "Log in again"
+#~ msgstr "再度ログイン"
 
 #~ msgid "Click here to login again."
 #~ msgstr "再度ログイン"

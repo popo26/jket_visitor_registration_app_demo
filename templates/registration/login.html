@@ -35,15 +35,17 @@
     {% endif %}
   {% endif %}
 
-  <form method="post" action="{% url 'password_change' %}">
+  <form method="post" action="{% url 'login' %}">
     {% csrf_token %}
     <table class="login-form"> 
       <tr class="form-control-lg">
-        <td>{{ form.username.label_tag }}</td>
+        <!-- <td>{{ form.username.label_tag }}</td> -->
+        <td><label for="username">{% trans 'Username' %}:</label></td>
         <td>{{ form.username }}</td>
       </tr>
       <tr class="form-control-lg">
-        <td>{{ form.password.label_tag }}</td>
+        <!-- <td>{{ form.password.label_tag }}</td> -->
+        <td><label for="password">PIN:</label></td>
         <td>{{ form.password }}</td>
       </tr>
     </table>

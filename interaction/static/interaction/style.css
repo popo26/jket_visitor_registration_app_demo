@@ -47,7 +47,7 @@ position:absolute;
 text-align: center;
 width:100%;
 color: green;
-bottom: 0;
+bottom: 5%;
 }
 
 .find-child-button {
@@ -142,8 +142,8 @@ color:purple;
 
 .lang-section {
   position:absolute;
-  width: 100%;
-  text-align:right;
+  width: 20%;
+  margin: 0 auto 0 75%;
   top:2%;
 }
 

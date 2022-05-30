@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-30 13:24+1200\n"
+"POT-Creation-Date: 2022-05-31 07:25+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -107,54 +107,16 @@ msgstr ""
 msgid "Back to Front Page"
 msgstr ""
 
-#: rego/settings.py:148
+#: rego/settings.py:138
 msgid "English"
 msgstr ""
 
-#: rego/settings.py:149
+#: rego/settings.py:139
 msgid "Japanese"
-msgstr ""
-
-#: templates/admin/base.html:39
-msgid "Welcome,"
-msgstr ""
-
-#: templates/admin/base.html:44
-msgid "View site"
-msgstr ""
-
-#: templates/admin/base.html:49
-msgid "Documentation"
-msgstr ""
-
-#: templates/admin/base.html:53
-#: templates/registration/password_change_done.html:8
-#: templates/registration/password_change_form.html:8
-msgid "Change password"
-msgstr ""
-
-#: templates/admin/base.html:55
-#: templates/registration/password_change_done.html:9
-#: templates/registration/password_change_form.html:9
-msgid "Log out"
-msgstr ""
-
-#: templates/admin/base.html:66 templates/admin/logged_out.html:4
-#: templates/registration/password_change_done.html:15
-#: templates/registration/password_change_form.html:15
-msgid "Home"
 msgstr ""
 
 #: templates/admin/base_site.html:3
 msgid "Django site admin"
-msgstr ""
-
-#: templates/admin/logged_out.html:10
-msgid "Thanks for spending some quality time with the web site today."
-msgstr ""
-
-#: templates/admin/logged_out.html:12
-msgid "Log in again"
 msgstr ""
 
 #: templates/base_registration.html:27
@@ -185,12 +147,31 @@ msgstr ""
 msgid "Please login to see this page."
 msgstr ""
 
-#: templates/registration/login.html:50
+#: templates/registration/login.html:43
+msgid "Username"
+msgstr ""
+
+#: templates/registration/login.html:52
 msgid "login"
 msgstr ""
 
-#: templates/registration/login.html:56
+#: templates/registration/login.html:58
 msgid "Lost PIN? Forgot username?"
+msgstr ""
+
+#: templates/registration/password_change_done.html:8
+#: templates/registration/password_change_form.html:8
+msgid "Change password"
+msgstr ""
+
+#: templates/registration/password_change_done.html:9
+#: templates/registration/password_change_form.html:9
+msgid "Log out"
+msgstr ""
+
+#: templates/registration/password_change_done.html:15
+#: templates/registration/password_change_form.html:15
+msgid "Home"
 msgstr ""
 
 #: templates/registration/password_change_done.html:16
