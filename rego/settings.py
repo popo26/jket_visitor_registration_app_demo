@@ -132,6 +132,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
 LOGIN_REDIRECT_URL = '/accounts/password_change/'
 
+# For development purpose. In order to see the sent email in CLI.
 # EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 LANGUAGES = (
