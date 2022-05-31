@@ -214,6 +214,15 @@ width:80%;
 margin: auto;
 }
 
+/* password_reset_complete.html */
+
+.password-reset-done {
+position:absolute;
+width: 100%;
+text-align:center;
+top:30%;
+}
+
 /* password_change_form.html */
 
 .help {
