@@ -22,6 +22,23 @@ margin: 0 auto;
 height: 100vh;
 }
 
+.previous-page {
+position:absolute;
+width: 100%;
+text-align:center;
+bottom:10%;
+}
+
+.link {
+color: green;
+}
+    
+.link:hover {
+color: purple;
+}
+
+/* base.html */
+
 .page-container {
 position: relative;
 min-height: 100vh;
@@ -42,6 +59,11 @@ height: 2.5rem;
 text-align: center;
 }
 
+.content-wrap {
+padding-bottom: 2.5rem;    
+position:absolute;
+}
+
 .footer {
 position:absolute;
 text-align: center;
@@ -50,6 +72,15 @@ color: green;
 bottom: 5%;
 }
 
+.lang-section {
+position:absolute;
+width: 20%;
+margin: 0 auto 0 75%;
+top:2%;
+}
+
+/* index.html */
+
 .find-child-button {
 position: absolute;
 top: 25%;
@@ -57,10 +88,7 @@ text-align: center;
 width: 100%;
 }
 
-.content-wrap {
-padding-bottom: 2.5rem;    
-position:absolute;
-}
+/* classroom_list.html */
 
 .classroom {
 position: absolute;
@@ -73,6 +101,8 @@ top: 25%;
 margin: 10px 0 10px 0;
 }
 
+/* student_list.html */
+
 .student-list {
 position: absolute;
 width: 100%;
@@ -83,6 +113,8 @@ top: 25%;
 .student-buttons {
 margin: 10px 0 10px 0;
 }
+
+/* checkout.html */
 
 .class-time-student {
 position:absolute;
@@ -109,6 +141,8 @@ left:0;
 margin-top: 30px;
 }
 
+/* success_checkout.html */
+
 .back-to-front-page {
 position:absolute;
 width: 100%;
@@ -117,34 +151,12 @@ top: 30%;
 font-size: 1.5rem;
 }
 
-.previous-page {
-position:absolute;
-width: 100%;
-text-align:center;
-bottom:10%;
-}
 
-.link {
-color: green;
-}
-
-.link:hover {
-color: purple;
-}
 
 /* JKET PIN Reset .password-reset-portal */
 
 .error-alert {
 color:purple;
-}
-
-/* base.html */
-
-.lang-section {
-  position:absolute;
-  width: 20%;
-  margin: 0 auto 0 75%;
-  top:2%;
 }
 
 /* login.html */
@@ -160,13 +172,14 @@ top:30%;
 margin:auto;
 }
 
-
 .log-back-in {
 position:absolute;
 width: 100%;
 text-align:center;
 top:30%;
 }
+
+/* password_reset_form.html */
 
 .password-reset-portal {
 position:absolute;
@@ -175,20 +188,8 @@ text-align:center;
 top:30%;
 }
 
-.password-reset-portal2 {
-position:absolute;
-width: 100%;
-text-align:center;
-top:30%;
-}
 
-
-/* .password-reset-emai-notofication {
-position:absolute;
-width: 100%;
-text-align:center;
-top:30%;
-} */
+/* password_reset_done.html */
 
 .password-reset-email-instructions-sent {
 position:absolute;
@@ -197,13 +198,6 @@ text-align:center;
 top:30%;
 }
 
-
-.password-reset-done {
-position:absolute;
-width: 100%;
-text-align:center;
-top:30%;
-}
 
 /* password_reset_confirm.html */
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-31 07:48+1200\n"
+"POT-Creation-Date: 2022-05-31 13:59+1200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,15 +70,15 @@ msgstr ""
 msgid "Checkout Choice:"
 msgstr ""
 
-#: interaction/templates/interaction/checkout.html:40
+#: interaction/templates/interaction/checkout.html:41
 msgid "Submit"
 msgstr ""
 
-#: interaction/templates/interaction/checkout.html:41
+#: interaction/templates/interaction/checkout.html:42
 msgid "Forgot your PIN?"
 msgstr ""
 
-#: interaction/templates/interaction/checkout.html:49
+#: interaction/templates/interaction/checkout.html:50
 #: interaction/templates/interaction/student_list.html:27
 msgid "Previous Page"
 msgstr ""
@@ -187,23 +187,27 @@ msgstr ""
 msgid "Please logout."
 msgstr ""
 
-#: templates/registration/password_change_form.html:48
+#: templates/registration/password_change_form.html:49
 msgid "Please correct the error below."
 msgstr ""
 
-#: templates/registration/password_change_form.html:82
+#: templates/registration/password_change_form.html:51
+msgid "Please correct the errors below."
+msgstr ""
+
+#: templates/registration/password_change_form.html:84
 msgid "Change my PIN"
 msgstr ""
 
-#: templates/registration/password_change_form.html:90
+#: templates/registration/password_change_form.html:92
 msgid "Changed your mind? Logout."
 msgstr ""
 
-#: templates/registration/password_change_form.html:91
+#: templates/registration/password_change_form.html:93
 msgid "If someone else needs PIN reset, click here."
 msgstr ""
 
-#: templates/registration/password_change_form.html:95
+#: templates/registration/password_change_form.html:97
 msgid "Click here to login."
 msgstr ""
 
@@ -243,6 +247,10 @@ msgstr ""
 msgid "Enter the email address of the user who needs PIN reset."
 msgstr ""
 
-#: templates/registration/password_reset_form.html:16
+#: templates/registration/password_reset_form.html:15
+msgid "This could be yours. Or, your friend who forgot PIN or username."
+msgstr ""
+
+#: templates/registration/password_reset_form.html:17
 msgid "Email Reset Link"
 msgstr ""

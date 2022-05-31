@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-31 07:48+1200\n"
-"PO-Revision-Date: 2022-05-31 07:49+1200\n"
+"POT-Creation-Date: 2022-05-31 13:59+1200\n"
+"PO-Revision-Date: 2022-05-31 13:59+1200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -84,15 +84,15 @@ msgstr "目的とPINを入力し送信してください。"
 msgid "Checkout Choice:"
 msgstr "目的："
 
-#: interaction/templates/interaction/checkout.html:40
+#: interaction/templates/interaction/checkout.html:41
 msgid "Submit"
 msgstr "送信"
 
-#: interaction/templates/interaction/checkout.html:41
+#: interaction/templates/interaction/checkout.html:42
 msgid "Forgot your PIN?"
 msgstr "PINを忘れた方"
 
-#: interaction/templates/interaction/checkout.html:49
+#: interaction/templates/interaction/checkout.html:50
 #: interaction/templates/interaction/student_list.html:27
 msgid "Previous Page"
 msgstr "前のページ"
@@ -201,23 +201,29 @@ msgstr "PINが変更されました。"
 msgid "Please logout."
 msgstr "ログアウトしてください。"
 
-#: templates/registration/password_change_form.html:48
+#: templates/registration/password_change_form.html:49
 msgid "Please correct the error below."
 msgstr "下記のエラーを修正してください。"
 
-#: templates/registration/password_change_form.html:82
+#: templates/registration/password_change_form.html:51
+#, fuzzy
+#| msgid "Please correct the error below."
+msgid "Please correct the errors below."
+msgstr "下記のエラーを修正してください。"
+
+#: templates/registration/password_change_form.html:84
 msgid "Change my PIN"
 msgstr "PINの変更"
 
-#: templates/registration/password_change_form.html:90
+#: templates/registration/password_change_form.html:92
 msgid "Changed your mind? Logout."
 msgstr "ログアウト"
 
-#: templates/registration/password_change_form.html:91
+#: templates/registration/password_change_form.html:93
 msgid "If someone else needs PIN reset, click here."
 msgstr "ユーザー名が分からない場合のPIN変更"
 
-#: templates/registration/password_change_form.html:95
+#: templates/registration/password_change_form.html:97
 msgid "Click here to login."
 msgstr "ログイン"
 
@@ -255,9 +261,15 @@ msgstr "生徒の検索へ戻る"
 
 #: templates/registration/password_reset_form.html:14
 msgid "Enter the email address of the user who needs PIN reset."
-msgstr "PIN変更の必要な方のeメールを入力"
+msgstr "PIN変更の必要な方のeメールを入力してください。"
 
-#: templates/registration/password_reset_form.html:16
+#: templates/registration/password_reset_form.html:15
+msgid "This could be yours. Or, your friend who forgot PIN or username."
+msgstr ""
+"現在操作なされてる方、もしくは、ご友人でPINまたはユーザー名をお忘れになった"
+"方のeメールにもご利用出来ます。"
+
+#: templates/registration/password_reset_form.html:17
 msgid "Email Reset Link"
 msgstr "PIN変更リンクを送信"
 
