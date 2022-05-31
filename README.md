@@ -8,7 +8,7 @@
 - Django framework
 ---
 
-## How to run this project:
+## How to run this application:
 
 1. Once clone or download this code, [create a virtualenv](https://docs.python.org/3/library/venv.html).
 2. Acticate the virtualenv.
@@ -22,7 +22,7 @@
 
 ---
 
-## How to use this project:
+## How to use this application:
 
 ### Situation1 --- (Main app) When a parent/guarding drops off/picks up their kid.
 - `127.0.0.1:8000/interaction` for landing page.
