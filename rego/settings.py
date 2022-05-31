@@ -31,7 +31,7 @@ SECRET_KEY = os.getenv("SECRET_KEY")
 # DEBUG = os.getenv("DEBUG")
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['jket-rego.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['jket-rego-demo.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
